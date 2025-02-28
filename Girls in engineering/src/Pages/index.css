@@ -1,0 +1,56 @@
+/* Home Page Styles */
+.home {
+    text-align: center;
+    padding: 20px;
+    }
+    
+    .hero {
+    background-color: #A1C4FD; 
+    color: white;
+    padding: 50px 20px;
+    }
+    
+    .hero h1 {
+    font-size: 2.5rem;
+    }
+    
+    .about, .features, .cta {
+    margin: 40px auto;
+    max-width: 800px;
+    }
+    
+    .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    
+    .feature {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    }
+    
+    .cta {
+    background-color: #ff69b4; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    }
+    
+    .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: white;
+    color: #ff69b4;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    
+    .btn:hover {
+    background: #fff0f5;
+    }
